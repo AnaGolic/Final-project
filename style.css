@@ -1,1 +1,42 @@
 
+*{
+    box-sizing: border-box;
+}
+body html {
+    margin: 0px;
+    padding: 0px;
+}
+.column{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    height: 100vh; 
+}
+#Top-line{
+    display: flex;
+}
+#logo-holder{
+    flex-grow: 1;
+}
+#social-holder{
+    flex-grow: 1;
+    text-align: right;
+}
+#main-menu{
+    display: flex;
+}
+#main-menu a {
+    flex-grow: 1;
+    text-align: right;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: blueviolet;
+    transition: 300ms;
+}
+#main-menu a:hover{
+    background: blueviolet;
+    color: #fff;
+}
+
+
