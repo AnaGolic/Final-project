@@ -1,49 +1,49 @@
 @font-face {
-    font-family:'SansPro';
-    src: url('../ASSETS/fonts/SourceSansPro-Light.ttf');
+  font-family:'SansPro';
+  src: url('../ASSETS/fonts/SourceSansPro-Light.ttf');
 } 
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body html {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  
 }
 .header{
-    height: 150px;
-    background-color:#D6EDFF;
+  height: 150px;
+  background-color:#D6EDFF;
 
 }
 
 .column{
-    width: 1000px;
-    margin: 0px auto;
-    height: 100vh;
-    background-color:#D6EDFF;
-     
+  width: 1000px;
+  margin: 0px auto;
+  height: 100vh;
+  background-color:#D6EDFF;
+   
 }
 .page.column{
-    height: 100vh;
-    width: 100%;
-    
+  height: 100vh;
+  width: 100%;
+  
 }
 #Top-line{
-    display: flex;
+  display: flex;
 }
 #logo-holder{
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 #logo-holder img{
-    height: 50px;
-    width: 200px;
-    margin: 20px;
+  height: 50px;
+  width: 200px;
+  margin: 20px;
 }
 #social-holder{
-    flex-grow: 1;
-    text-align: right;
+  flex-grow: 1;
+  text-align: right;
 }
 #social-holder a img{
 height: 24px;
@@ -53,83 +53,99 @@ margin: 20px;
 }
 
 #main-menu{
-    display: flex;
+  display: flex;
 }
 #main-menu a {
-    flex-grow: 1;
-    text-align: right;
-    display: block;
-    padding: 30px;
-    text-decoration: none;
-    color: blueviolet;
-    transition: 0.3s;
+  flex-grow: 1;
+  text-align: right;
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  color: blueviolet;
+  transition: 0.3s;
 }
 #main-menu a:hover{
-    background: blueviolet;
-    color: #fff;
+  background: blueviolet;
+  color: #fff;
 }
 
 .container h1{
-    color: blueviolet;
-    font-size:1.5em;
-    padding-top: 100px;
-    padding-left: 50px;
+  color: blueviolet;
+  font-size:1.5em;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.container h1 span{
+  color:blueviolet;
+  text-decoration: none;
+  padding:10px; 
+  background-color:#D6EDFF;
+  border:1px solid blueviolet;
+  border-radius:3px;
+  transition: background-color 0.4s;
+  font-size:0.8em; 
+
 }
 .container button{
-    color:blueviolet;
-    text-decoration: none;
-    padding:10px;
-    background-color:#D6EDFF;
-    border:1px solid blueviolet;
-    border-radius:4px 0 0 4px;
-    transition: background-color 0.4s;
-    font-size:1em;  
+  color:blueviolet;
+  text-decoration: none;
+  padding:10px 15px;
+  background-color:#D6EDFF;
+  border:1px solid blueviolet;
+  border-radius:4px;
+  transition: background-color 0.4s;
+  font-size:1em;  
+}
+.container button:hover{
+background-color: #1292EE;
+color: #fff;
+border: 1px solid #002651;
 }
 
 body {
-    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
-    overflow: hidden;
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
   }
-  
-  .ocean { 
-    height: 5%;
-    width:100%;
-    position:absolute;
-    bottom:0;
-    left:0;
-    background: #015871;
+  100% {
+    margin-left: -1600px;
   }
-  
-  .wave {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
-    position: absolute;
-    top: -198px;
-    width: 6400px;
-    height: 198px;
-    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-    transform: translate3d(0, 0, 0);
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
   }
-  
-  .wave:nth-of-type(2) {
-    top: -175px;
-    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-    opacity: 1;
+  50% {
+    transform: translate3d(0,5px,0);
   }
-  
-  @keyframes wave {
-    0% {
-      margin-left: 0;
-    }
-    100% {
-      margin-left: -1600px;
-    }
-  }
-  
-  @keyframes swell {
-    0%, 100% {
-      transform: translate3d(0,-25px,0);
-    }
-    50% {
-      transform: translate3d(0,5px,0);
-    }
-  }
+}
