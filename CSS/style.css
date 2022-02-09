@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 html{
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 body html {
   margin: 0px;
@@ -76,14 +76,14 @@ margin: 20px;
 .container h1,h2{
   color: blueviolet;
   font-size:2em;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-left: 50px;
   text-align: center;
 }
 .container img{
 width:100%;
-}
 
+}
 
 .container h1 span{
   color:blueviolet;
@@ -122,12 +122,61 @@ background-color: #1292EE;
 color: #fff;
 border: 1px solid #002651;
 }
+#services h2{
+padding-top: 40px;
+
+}
+#services{
+color: blueviolet;
+background-color:#D6EDFF;
+}
+.service-row{
+display: flex;
+margin-bottom: 40px;
+
+}
+.service-row > div{
+flex-grow: 1;
+text-align: center;
+position: relative;
+}
 
 
 
+#portofolio{
+color: blueviolet;
+background-color:#D6EDFF;
+
+}
+.portofolio-row{
+display: flex;
+margin-bottom: 40px;
+}
+.portofolio-row > div{
+flex-grow: 1;
+text-align: center;
+position: relative;
+border: 1px solid #002651;
+}
+#contact img{
+margin: 0 auto;
+padding: 0px 150px;
+
+}
+#contact {
+color: #002651;
+}
+.footer{
+border-top:1px solid #002651;
+background-color:aquamarine;
+border-bottom:1px solid #002651;
+height:220px;
+color:#002651 ;
+}
 
 
-body {
+
+body{
   background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
   overflow-x: hidden;
 }
