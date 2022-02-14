@@ -8,6 +8,9 @@
 html{
 scroll-behavior: smooth;
 }
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
 body html {
   margin: 0px;
   padding: 0px;
@@ -166,7 +169,7 @@ padding: 0px 150px;
 #contact {
 color: #002651;
 }
-.footer{
+#site-footer{
 border-top:1px solid #002651;
 background-color:aquamarine;
 border-bottom:1px solid #002651;
