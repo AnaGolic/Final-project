@@ -24,41 +24,55 @@
   </script>
 </head>
 <body>
-    <div class="header">
-      <header>
-        <div class="column">
-            <div id="Top-line">
-                <div id="logo-holder">
-                    <img src="ASSETS/logo.svg" alt="loading logo">
-                </div>
-                <div id="social-holder">
-                    <a href="#"><img src="ASSETS/icons8-facebook.svg" alt="Facebook"></a>
-                    <a href="#"><img src="ASSETS/icons8-linkedin-2.svg" alt="Linkedin"></a>
-                    <a href="#"><img src="ASSETS/icons8instagram(1).svg" alt="Instagram"></a>
-                    <a href="#"><img src="ASSETS/icons8-twitter-16.png" alt="Twitter"></a>
-                </div>
-                </div>
-                <nav id="main-menu" class="hamburger">
-                    <a href="#home" class="active">HOME</a>
-                    <a href="#services">SERVICES</a>
-                    <a href="#aboutus">ABOUT US</a>
-                    <a href="#portofolio">PORTOFOLIO</a>
-                    <a href="#lifecycle">LIFE CYCLE</a>
-                    <a href="#contact">CONTACT</a>
-                </nav>
-            </div>
-          </header>
+  <div class="header">
+    <header>
+      <div class="column">
+        <div id="Top-line">
+          <div id="logo-holder">
+            <div id="logo">
+              <img src="ASSETS/logo.png" alt="logo">
+              </div>
+          </div>
+          <div id="social-holder">
+            <a href="#"><img src="ASSETS/icons8-facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="ASSETS/icons8-linkedin-2.svg" alt="Linkedin"></a>
+            <a href="#"><img src="ASSETS/icons8instagram(1).svg" alt="Instagram"></a>
+            <a href="#"><img src="ASSETS/icons8-twitter-16.png" alt="Twitter"></a>
+          </div>
         </div>
-    <div class="page" id="home"></div>
-        <div class="column">
-            <div class="container">
-                    <h1>
-                      Discover your personal online marketing assistant  <span id="button">SEO Lab</span>
-                    </h1>
-                    <p>
-                        SEO is more than one H1 Tag..Long-tail keywords are easier to rank for..PPC can't help you rank higher..Do you really want to know, what's the truth? Don't experiment! We are waiting for you, your Seo lab is ready.Come in now!
-                    </p>
-                    <button>Learn more</button>
+        <section class="top-nav">
+          <input id="menu-toggle" type="checkbox" />
+          <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+          <ul class="menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#aboutus">ABOUT US</a></li>
+            <li><a href="#portofolio">PORTOFOLIO</a></li>
+            <li><a href="#lifecycle">LIFE CYCLE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+          <div id="play" style="display: none;">Play</div>
+          <div id="mute">Mute</div>
+        </section>
+      </div>
+    </header>
+  </div>
+  <div class="page" id="home"></div>
+  <div class="column">
+    <div class="container">
+      <h1>
+        Discover your personal online marketing assistant
+      </h1>
+      <p>
+        SEO is more than one H1 Tag..Long-tail keywords are easier to rank for..PPC can't help you rank higher..Do you
+        really want to know, what's the truth? Don't experiment! We are waiting for you, your Seo lab is ready.Come in
+        now!
+      </p>
+
+      <button id="learnButton">Learn more</button>
+
 
                     <div class="ocean">
                         <div class="wave"></div>
