@@ -467,3 +467,349 @@ body {
     transform: translate3d(0, 5px, 0);
   }
 }
+
+
+
+@media (max-width: 480px) {
+  #seo2img {
+    width: 100%
+  }
+
+  .column {
+    height: 100%;
+    margin-bottom: 20px;
+
+  }
+  
+  .container h2 {
+    font-size: 17px;
+    font-weight: bold;
+    }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .wave {
+  display: none;
+  }
+
+  .column img {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 30px;
+  }
+
+  .column h2 {
+    padding-left: 0;
+    margin-bottom: 0px;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+  .column p {
+    padding: 30px 0;
+    font-size: 13px;
+  }
+
+
+
+  body {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-button-container {
+    display: flex;
+  }
+
+  .menu {
+    top: 0;
+    margin-top: 70px;
+    left: 0;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #social-holder {
+    display: none;
+  }
+
+  #menu-toggle~.menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    position: relative;
+    display: none;
+
+  }
+
+  #menu-toggle:checked~.menu li {
+    border: 1px solid darkblue;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    display: block;
+
+  }
+
+  .menu>li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: aquamarine;
+
+  }
+
+  .menu>li a:last-child(6) {
+    text-decoration: none;
+    display: none;
+  }
+
+  .container a img {
+    width: 30%;
+  }
+  .ocean {
+  display: none;
+  }
+
+  .service-row {
+    flex-flow: row wrap;
+    gap: 50px;
+  }
+
+
+  .service-row img {
+    width: 300px;
+    padding: 0px 10px;
+  }
+
+  .portofolio-row {
+    flex-flow: row wrap;
+    gap: 50px;
+    
+  }
+  .portofolio-row div {
+      flex-grow: 1;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 0px 10px;
+    }
+
+  .portofolio-row img {
+    width: 100%;
+    padding: 20px;
+  }
+  .container h1 {
+    font-size: 20px;
+    padding: 0;
+    margin-top: 100px;
+    padding-top: 40px;
+    font-weight: bold;
+    }
+  
+  .container p {
+    padding: 30px 0;
+    font-size: 13px;
+  }
+  .container h1, h2 {
+    color: blueviolet;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+  
+  }
+  #services h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 17px;
+  }
+  .content{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 13px;
+  }
+  .column h3
+  {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .column .portoflolio-row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 40%;
+  }
+
+  .column .portoflolio-row div {
+    width: 100px;
+  }
+  
+
+.service-row p {
+  font-size: 13px;
+}
+#portofolio h3 {
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: blueviolet;
+}
+#aboutus h2{
+  font-size: 17px;
+  font-weight: bold;
+}
+#aboutus p {
+  font-size: 13px;
+  padding: 0px 10px;
+}
+
+#lifecycle h2{
+  padding: 10px 0;
+  font-size: 17px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+  #lifecycle h3{
+    padding: 10px 0;
+    font-size: 15px;
+  }
+  #lifecycle ul li{
+    padding: 5px 0;
+    font-size: 13px;
+  }
+  #lifecycle p{
+    padding: 5px 0;
+    font-size: 13px;
+  }
+  #lifecycle ol li{
+    padding: 5px 0;
+    font-size: 13px;
+  }
+  #lifecycle  img {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  #contact{
+    padding: 5px;
+    
+  }
+  
+  #contact h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  #site-footer{
+    padding: 10px;
+    font-size: 13px;
+  }
+
+#logo{
+  width: 100%;
+  padding-left: 10%; 
+}
+  #logo-holder img {
+    height: 50px;
+    width: 200px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+  }
+
+#contact img {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contact button {
+  height: 100%;
+  width: 40%;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color:blue;
+  color: #FFF;
+  }
+ 
+  
+  form{
+    display: flex;
+    width:19%;
+    flex-flow: row wrap;
+    margin-left: 130px;
+    text-align: center;
+    gap: 10px;
+    font-size: 13px;
+    margin: 0 auto;
+}
+label{
+  text-align: center;
+}
+input{
+  border: none;
+  padding: 5px;
+ 
+}
+label{
+  margin-top: 10px;
+  font-weight: 400;
+
+}
+#name{
+  margin-left: 76px;
+}
+
+#email{
+margin-left: 60px;
+}
+#subject{
+  margin-left: 60px;
+  }
+  #message{
+    margin-left: 37px;
+    }
+
+textarea{
+  margin: 0 auto;
+  margin-bottom: 10px ;
+  border: none;
+}
+
+textarea:hover{
+ 
+  background-color: #EBECF0;
+  cursor: pointer;
+  transition: 1s all;
+}
+input:hover{
+ 
+  background-color: #EBECF0;
+  cursor: pointer;
+  transition: 1s all;
+}
+#site-footer {
+  border-top: 1px solid #002651;
+  background-color: aquamarine;
+  height: 220px;
+  color: #002651;
+
+}
+#site-footer p{
+  font-size: 0.7em;
+}
+}
