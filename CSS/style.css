@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'SansPro';
-  src: url('../ASSETS/fonts/SourceSansPro-Light.ttf');
+  src: url('/ASSETS/fonts/SourceSansPro-Light.ttf');
 }
 
 * {
